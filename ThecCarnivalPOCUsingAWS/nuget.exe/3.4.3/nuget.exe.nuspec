@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NuGet.exe</id>
+    <version>3.4.3</version>
+    <title>NuGet executable</title>
+    <authors>Microsoft</authors>
+    <owners>Daniel M. Garcia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/NuGet/NuGet.Client/dev/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/NuGet/NuGet.Client</projectUrl>
+    <description>NuGet Command Line Tool with props file.</description>
+    <copyright>� .NET Foundation. All rights reserved.</copyright>
+    <tags>NuGet</tags>
+  </metadata>
+</package>
