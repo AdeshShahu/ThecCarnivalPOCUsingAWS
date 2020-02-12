@@ -2,15 +2,35 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<IsPackable>true</IsPackable>
   </PropertyGroup>
 
   
 
   <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\appsettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.runtimeconfig.json" />
     <Content Include="obj\project.assets.json" />
+	  
   </ItemGroup>
 
   
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.Views.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ThecCarnivalPOCUsingAWS.Views.pdb" />
+    <None Include="bin\Debug\ThecCarnivalPOCUsingAWS.1.0.0.nupkg" />
+  </ItemGroup>
+
+	
 
 
 
